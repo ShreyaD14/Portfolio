@@ -5,12 +5,12 @@ const skillCategories = [
   {
     title: "Programming Languages",
     icon: "⚡",
-    skills: ["C++", "Python", "JavaScript"],
+    skills: ["C++", "Python", "JavaScript","Java"],
   },
   {
     title: "AI / ML",
     icon: "🤖",
-    skills: ["TensorFlow", "Transformers", "OpenCV", "NLP", "Predictive ML"],
+    skills: ["TensorFlow", "Transformers", "OpenCV", "NLP", "Predictive ML","Gen AI","Pandas","Matplotlib","scikit","Fast API"],
   },
   {
     title: "Web Development",
@@ -25,7 +25,7 @@ const skillCategories = [
   {
     title: "Core CS",
     icon: "🧠",
-    skills: ["DSA", "DBMS", "SDLC", "AWS"],
+    skills: ["DSA", "DBMS", "SDLC", "AWS","OS","CN"],
   },
   {
     title: "Tools & Platforms",

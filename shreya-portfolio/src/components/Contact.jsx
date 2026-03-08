@@ -33,7 +33,7 @@ export default function Contact() {
             <h3 className="contact-heading">Get In Touch</h3>
             <p className="contact-text">
               Whether you're looking to collaborate on AI/ML research, build a project together,
-              or just have a conversation about technology — I'd love to hear from you!
+              or just have a conversation about technology ,I'd love to hear from you!
             </p>
 
             <div className="contact-links">
@@ -105,7 +105,7 @@ export default function Contact() {
           <div className="footer-content">
             <div className="footer-logo">&lt;SD/&gt;</div>
             <p className="footer-text">
-              © 2025 Shreya Das · Built with React · Designed with ❤️ & ☕
+              © 2025 Shreya Das · Built with React ·
             </p>
           </div>
         </div>

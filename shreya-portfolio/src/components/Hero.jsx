@@ -36,7 +36,7 @@ export default function Hero() {
     <section id="home" className="hero">
       <div className="hero-container container">
         <div className="hero-content">
-          <div className="hero-greeting">Hello, World! 👋</div>
+          <div className="hero-greeting">Hello, World -_-</div>
           <h1 className="hero-name">
             Hi, I'm <span className="name-glow">Shreya Das</span>
           </h1>
@@ -75,6 +75,9 @@ export default function Hero() {
               onClick={(e) => { e.preventDefault(); document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" }); }}>
               <span>⚡ View Projects</span>
             </a>
+            <a href="/resume.pdf" download="ShreyaDas_Resume.pdf" className="btn-primary btn-resume">
+              <span>📄 Download Resume</span>
+            </a>
             <a href="#contact" className="btn-outline"
               onClick={(e) => { e.preventDefault(); document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" }); }}>
               Contact Me
@@ -96,7 +99,7 @@ export default function Hero() {
           <div className="avatar-container">
             <div className="avatar-glow" />
             <div className="avatar-placeholder">
-              <span>SD</span>
+              <img src="/photo.png" />
             </div>
           </div>
           <div className="floating-badge badge-1">

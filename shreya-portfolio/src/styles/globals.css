@@ -146,6 +146,15 @@ section {
 
 .btn-primary:hover::before { opacity: 1; }
 .btn-primary span { position: relative; z-index: 1; }
+.btn-resume {
+  background: linear-gradient(135deg, #0a2a0a, #0d4a1a) !important;
+  border: 1px solid rgba(0, 200, 100, 0.5);
+  box-shadow: 0 0 15px rgba(0, 200, 100, 0.15);
+}
+
+.btn-resume:hover {
+  box-shadow: 0 8px 30px rgba(0, 200, 100, 0.3) !important;
+}
 
 .btn-outline {
   display: inline-flex;

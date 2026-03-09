@@ -1,24 +1,31 @@
 # Shreya Das — Portfolio Website
 
-Dark sci-fi themed portfolio built with React + Vite.
+Dark **sci-fi themed developer portfolio** built with **React + Vite** to showcase projects, skills, achievements, and publications.
 
-## 🚀 Setup & Run
+🌐 **Live Website:**
+https://portfolio-shreyad14s-projects.vercel.app
+
+---
+
+## 🚀 Setup & Run Locally
 
 ```bash
-# 1. Install dependencies
+# Install dependencies
 npm install
 
-# 2. Start dev server
+# Start development server
 npm run dev
 
-# 3. Build for production
+# Build for production
 npm run build
 ```
 
-## 📁 File Structure
+---
+
+## 📁 Project Structure
 
 ```
-shreya-portfolio/
+Portfolio/
 ├── index.html
 ├── package.json
 ├── vite.config.js
@@ -28,31 +35,93 @@ shreya-portfolio/
     ├── styles/
     │   └── globals.css
     └── components/
-        ├── ParticleBackground.jsx   ← Animated canvas particles
-        ├── Navbar.jsx + .css        ← Fixed responsive navbar
-        ├── Hero.jsx + .css          ← Typewriter + orbit rings
-        ├── About.jsx + .css         ← Bio + info cards
-        ├── Skills.jsx + .css        ← Tech stack grid
-        ├── Projects.jsx + .css      ← 3 project cards
-        ├── Experience.jsx + .css    ← Timeline layout
-        ├── Publications.jsx + .css  ← IEEE / Patent / Journal
-        ├── Achievements.jsx + .css  ← Awards & honors
-        └── Contact.jsx + .css       ← Links + footer
+        ├── ParticleBackground.jsx
+        ├── Navbar.jsx + .css
+        ├── Hero.jsx + .css
+        ├── About.jsx + .css
+        ├── Skills.jsx + .css
+        ├── Projects.jsx + .css
+        ├── Experience.jsx + .css
+        ├── Publications.jsx + .css
+        ├── Achievements.jsx + .css
+        └── Contact.jsx + .css
 ```
+
+---
+
+## 🛠 Tech Stack
+
+* **React**
+* **Vite**
+* **JavaScript (ES6+)**
+* **CSS3**
+* **Responsive Web Design**
+
+---
+
+## ✨ Features
+
+* Animated **particle background**
+* Modern **dark sci-fi UI**
+* Fully **responsive layout**
+* Project showcase with cards
+* Skills and experience timeline
+* Publications and achievements section
+* Contact links & social profiles
+
+---
 
 ## 🎨 Customization
 
-- **Add your photo**: In `Hero.jsx`, replace the `<span>SD</span>` inside `.avatar-placeholder` with:
-  ```jsx
-  <img src="/your-photo.jpg" alt="Shreya Das" />
-  ```
-  Then put `your-photo.jpg` in the `public/` folder.
+### Add Your Photo
 
-- **Add resume download**: Upload your PDF to `public/resume.pdf` and add a button:
-  ```jsx
-  <a href="/resume.pdf" download className="btn-outline">Download Resume</a>
-  ```
+Replace the placeholder in `Hero.jsx`:
 
-## 🌐 Deploy
+```jsx
+<img src="/your-photo.jpg" alt="Shreya Das" />
+```
 
-Works perfectly on **Vercel**, **Netlify**, or **GitHub Pages** (with vite build).
+Then place the image inside:
+
+```
+public/your-photo.jpg
+```
+
+---
+
+### Add Resume Download
+
+Upload your resume to:
+
+```
+public/resume.pdf
+```
+
+Add button:
+
+```jsx
+<a href="/resume.pdf" download className="btn-outline">
+  Download Resume
+</a>
+```
+
+---
+
+## 🌐 Deployment
+
+This project can be deployed easily on:
+
+* **Vercel**
+* **Netlify**
+* **GitHub Pages**
+
+Recommended platform: **Vercel**
+
+---
+
+## 👩‍💻 Author
+
+**Shreya Das**
+
+* GitHub: https://github.com/ShreyaD14
+* Portfolio: https://portfolio-shreyad14s-projects.vercel.app
